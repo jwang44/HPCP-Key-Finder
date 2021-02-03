@@ -13,4 +13,4 @@ The key estimation process is functionized in `estm_key.m`. It makes use of `get
 
 Putting it all together, the experiment on the test dataset is performed by running `main.m`. It loops through all audio files in a directory and writes the key estimation result, including the file names, estimated keys, and tonalness values, into a text file.
 
-Unfortunately, I cannot provide the dataset here.
+For more detail, please consult the report here on my website.
