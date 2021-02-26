@@ -3,7 +3,7 @@ Repository for my MUMT 605 final project
 
 Full source code available!
 
-The algorithm for extracting HPCP from audio signals is implemented in `show_hpcp.m`, which reads a single audio file, computes the instantaneous HPCP for every frame and then generates a plot of the global HPCP vector. This part of the algorithm is functionized in `get_hpcp.m`.
+The algorithm for extracting HPCP (Harmonic Pitch Class Profile) from audio signals is implemented in `show_hpcp.m`, which reads a single audio file, computes the instantaneous HPCP for every frame and then generates a plot of the global HPCP vector. This part of the algorithm is functionized in `get_hpcp.m`.
 
 The key profiles used in key estimation can be plotted with `show_profile.m`, where the 12 discrete values of both major and minor key profiles are linearly interpolated to get all 36 key profile values. This part is functionized in `get_profile.m`. These two scripts both call `interp_profile.m`, which is a function for linear interpolation.
 
@@ -13,4 +13,4 @@ The key estimation process is functionized in `estm_key.m`. It makes use of `get
 
 Putting it all together, the experiment on the test dataset is performed by running `main.m`. It loops through all audio files in a directory and writes the key estimation result, including the file names, estimated keys, and tonalness values, into a text file.
 
-For more detail, please consult the report here on my website.
+For more detail, please consult the report [here]https://jwang44.github.io/assets/605_report.pdf on my website.
