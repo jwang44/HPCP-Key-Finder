@@ -13,4 +13,8 @@ The key estimation process is functionized in `estm_key.m`. It makes use of `get
 
 Putting it all together, the experiment on the test dataset is performed by running `main.m`. It loops through all audio files in a directory and writes the key estimation result, including the file names, estimated keys, and tonalness values, into a text file.
 
+The implementation is based on this great [paper](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.1040.0126?journalCode=ijoc): 
+
+Gómez, Emilia. "Tonal description of polyphonic audio for music content processing." INFORMS Journal on Computing 18, no. 3 (2006): 294-304
+
 For more details, please consult the report [here](https://jwang44.github.io/assets/605_report.pdf) on my website.
